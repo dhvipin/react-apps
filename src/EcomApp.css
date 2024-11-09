@@ -1,0 +1,62 @@
+.App {
+    text-align:center;
+  }
+  
+  .App-logo {
+    height: 10vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+    .col1{
+        width: 49%;
+        background-color:coral;
+        margin: 0.5%;
+
+    }
+    .col2{
+        width: 49%;
+        background-color: chocolate;
+        margin: 0.5%;
+    }
+  }
+  
+  .product-list,
+  .shopping-cart {
+  flex:1;
+    
+  }
+  
+  .product,
+  .cart-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom:10px;
+    background-color: cadetblue;
+    
+    
+    
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,19 @@
+.DApp {
+    text-align: center;
+  }
+  
+  .DApp-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .DApp-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  .digital-clock {
+    font-size: 2rem;
+  }
+  
